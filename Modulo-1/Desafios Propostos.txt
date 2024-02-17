@@ -1,0 +1,49 @@
+Desafios de layout fluido podem ajudar a aprimorar suas habilidades de design responsivo e garantir que suas interfaces de usuário se adaptem a diferentes tamanhos de tela. Aqui está uma lista de desafios que você pode tentar:
+
+1. Cabeçalho e Navegação:   []
+   - Crie um cabeçalho e uma barra de navegação que se ajustem fluidamente a diferentes larguras de tela.
+   - Certifique-se de que os itens da navegação se comportem adequadamente em dispositivos móveis.
+
+2. Grade Flexível:  []
+   - Crie uma grade flexível que se ajuste dinamicamente ao tamanho da tela.
+   - Utilize flexbox para organizar os itens da grade.
+
+3. Tipografia Responsiva:   []
+   - Faça com que o tamanho da fonte se ajuste conforme a largura da tela.
+   - Experimente unidades de medida relativas como `em` ou `rem`.
+
+4. Imagens Responsivas: []
+   - Certifique-se de que as imagens se redimensionem automaticamente para caber na tela.
+   - Utilize a propriedade `max-width` para evitar que as imagens ultrapassem seus contêineres.
+
+5. Formulários Adaptativos: []
+   - Desenvolva formulários que se adaptem bem a diferentes tamanhos de tela.
+   - Considere o uso de layouts de coluna única em dispositivos pequenos e de várias colunas em dispositivos maiores.
+
+6. Layouts de Cartão Flexíveis: []
+   - Crie layouts de cartão que se ajustem dinamicamente à largura da tela.
+   - Garanta uma boa experiência de usuário em dispositivos móveis.
+
+7. Menu de Navegação Hamburguer:    []
+   - Implemente um menu de navegação hamburguer para dispositivos móveis.
+   - Utilize técnicas de transição e animação para uma experiência de usuário suave.
+
+8. Vista de Tabela Adaptativa:  []
+   - Desenvolva uma tabela que se ajuste bem a diferentes tamanhos de tela.
+   - Considere ocultar ou rearranjar colunas em dispositivos menores.
+
+9. Vista de Grade com Mídia:    []
+   - Crie uma grade de itens de mídia (como cartões de notícias) que se ajuste de forma responsiva.
+   - Certifique-se de que as imagens e o texto sejam dimensionados de maneira adequada.
+
+10. Rodapé Flexível:    []
+    - Desenvolva um rodapé que ocupe a largura total da tela em dispositivos maiores, mas que seja bem estruturado em dispositivos menores.
+
+11. Testes Cross-Browser:   []
+    - Certifique-se de que seu layout fluido funcione corretamente em vários navegadores, como Chrome, Firefox, Safari e Edge.
+
+12. Ocultar e Exibir Conteúdo:  []
+    - Utilize técnicas de ocultar e exibir conteúdo com base no tamanho da tela.
+    - Considere o uso de media queries para controlar o comportamento.
+
+Esses desafios podem ser adaptados e expandidos com base nas suas necessidades e nível de habilidade. Lembre-se de testar em diferentes dispositivos e navegadores para garantir uma experiência consistente para os usuários.
