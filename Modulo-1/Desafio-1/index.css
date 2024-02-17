@@ -1,24 +1,29 @@
+/* Reset de Estilos: Remove margens e preenchimentos padrão em todos os elementos */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Estilo de Links: Define a cor, remove sublinhado e adiciona transição no hover */
 a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
+/* Hover nos Links: Reduz a opacidade ao passar o mouse sobre os links */
 a:hover {
     opacity: 0.7;
 }
 
+/* Estilo da Logo: Define tamanho, transformação para maiúsculas e espaçamento entre letras */
 .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
+/* Estilo da Barra de Navegação: Define layout flexível, cor de fundo e altura */
 nav {
     display: flex;
     justify-content: space-around;
@@ -28,27 +33,32 @@ nav {
     height: 8vh;
 }
 
+/* Estilo do Conteúdo Principal: Define imagem de fundo e altura do conteúdo principal */
 main {
     background: url("bg.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
 
+/* Estilo da Lista de Navegação: Define lista sem marcadores e espaçamento entre itens */
 .nav-list {
     list-style: none;
     display: flex;
 }
 
+/* Estilo dos Itens da Lista de Navegação: Define espaçamento lateral e espaçamento entre letras */
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
 }
 
+/* Estilo do Menu Mobile: Define display, cursor e estilo das linhas do menu */
 .mobile-menu {
     display: none;
     cursor: pointer;
 }
 
+/* Estilo das Linhas do Menu Mobile: Define tamanho, cor e transição das linhas */
 .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -57,6 +67,7 @@ main {
     transition: 0.3s;
 }
 
+/* Media Query para Telas Menores (Móveis): Esconde a barra de rolagem horizontal e ajusta estilos */
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
@@ -83,10 +94,12 @@ main {
     }
 }
 
+/* Estilo da Lista de Navegação Ativa: Animação para a lista de navegação aparecer */
 .nav-list.active {
     transform: translateX(0);
 }
 
+/* Animação para Links na Barra de Navegação: Define animação de fade para links */
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -98,6 +111,7 @@ main {
     }
 }
 
+/* Estilos para o Menu Mobile Ativo: Define rotação e opacidade para as linhas do menu */
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-14px, 0px);
 }
