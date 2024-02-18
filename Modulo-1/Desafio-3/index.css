@@ -1,0 +1,66 @@
+/* Resetando as margens, preenchimentos e definindo a fonte padrão para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Estilo para o corpo da página */
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Estilo básico para todas as divs */
+div {
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* Configurações de estilo para a .caixa-1 */
+.caixa-1 {
+  font-size: 16px;
+}
+
+.caixa-1 h1 {
+  font-size: 2em;
+}
+
+.caixa-1 p {
+  font-size: 0.8em;
+}
+
+/* Configurações de estilo para a .caixa-2 com Media Queries */
+.caixa-2 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .caixa-2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .caixa-2 {
+    font-size: 20px;
+  }
+}
+
+/* Configurações de estilo para a .caixa-3 com unidades vw (viewport width) */
+.caixa-3 {
+  font-size: 2vw;
+}
+
+/* Configurações de estilo para a .caixa-4 com calc */
+.caixa-4 {
+  font-size: calc(16px + 0.5vw);
+}
+
+/* Configurações de estilo para a .caixa-5 com clamp */
+.caixa-5 {
+  font-size: clamp(14px, 2vw, 20px);
+}
