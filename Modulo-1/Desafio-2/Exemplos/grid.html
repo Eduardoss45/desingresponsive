@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <style>
+        /* Define um contêiner de grade usando CSS Grid */
+        .container {
+            display: grid;
+            /* As colunas se ajustam automaticamente à largura do contêiner.
+               Cada coluna tem uma largura mínima de 200px e uma largura máxima de 1fr (fração da largura disponível). */
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            /* Adiciona um espaçamento de 20 pixels entre as células da grade */
+            gap: 20px;
+        }
+
+        /* Define o estilo para os itens dentro da grade */
+        .item {
+            /* Adiciona uma borda de 1px sólida */
+            border: 1px solid #ccc;
+            /* Adiciona um preenchimento interno de 10px */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contêiner de grade -->
+    <div class="container">
+        <!-- Itens dentro da grade -->
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <!-- Adicione mais itens conforme necessário -->
+    </div>
+</body>
+</html>

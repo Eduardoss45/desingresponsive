@@ -1,10 +1,10 @@
 Desafios de layout fluido podem ajudar a aprimorar suas habilidades de design responsivo e garantir que suas interfaces de usuário se adaptem a diferentes tamanhos de tela. Aqui está uma lista de desafios que você pode tentar:
 
-1. Cabeçalho e Navegação:   []
+1. Cabeçalho e Navegação:   [X]
    - Crie um cabeçalho e uma barra de navegação que se ajustem fluidamente a diferentes larguras de tela.
    - Certifique-se de que os itens da navegação se comportem adequadamente em dispositivos móveis.
 
-2. Grade Flexível:  []
+2. Grade Flexível:  [X]
    - Crie uma grade flexível que se ajuste dinamicamente ao tamanho da tela.
    - Utilize flexbox para organizar os itens da grade.
 
