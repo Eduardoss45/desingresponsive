@@ -8,15 +8,15 @@ Desafios de layout fluido podem ajudar a aprimorar suas habilidades de design re
    - Crie uma grade flexível que se ajuste dinamicamente ao tamanho da tela.
    - Utilize flexbox para organizar os itens da grade.
 
-3. Tipografia Responsiva:   []
+3. Tipografia Responsiva:   [X]
    - Faça com que o tamanho da fonte se ajuste conforme a largura da tela.
    - Experimente unidades de medida relativas como `em` ou `rem`.
 
-4. Imagens Responsivas: []
+4. Imagens Responsivas: [X]
    - Certifique-se de que as imagens se redimensionem automaticamente para caber na tela.
    - Utilize a propriedade `max-width` para evitar que as imagens ultrapassem seus contêineres.
 
-5. Formulários Adaptativos: []
+5. Formulários Adaptativos: [X]
    - Desenvolva formulários que se adaptem bem a diferentes tamanhos de tela.
    - Considere o uso de layouts de coluna única em dispositivos pequenos e de várias colunas em dispositivos maiores.
 
@@ -24,15 +24,15 @@ Desafios de layout fluido podem ajudar a aprimorar suas habilidades de design re
    - Crie layouts de cartão que se ajustem dinamicamente à largura da tela.
    - Garanta uma boa experiência de usuário em dispositivos móveis.
 
-7. Menu de Navegação Hamburguer:    []
+7. Menu de Navegação Hamburguer:    [X]
    - Implemente um menu de navegação hamburguer para dispositivos móveis.
    - Utilize técnicas de transição e animação para uma experiência de usuário suave.
 
-8. Vista de Tabela Adaptativa:  []
+8. Vista de Tabela Adaptativa:  [X]
    - Desenvolva uma tabela que se ajuste bem a diferentes tamanhos de tela.
    - Considere ocultar ou rearranjar colunas em dispositivos menores.
 
-9. Vista de Grade com Mídia:    []
+9. Vista de Grade com Mídia:    [X]
    - Crie uma grade de itens de mídia (como cartões de notícias) que se ajuste de forma responsiva.
    - Certifique-se de que as imagens e o texto sejam dimensionados de maneira adequada.
 
@@ -42,7 +42,7 @@ Desafios de layout fluido podem ajudar a aprimorar suas habilidades de design re
 11. Testes Cross-Browser:   []
     - Certifique-se de que seu layout fluido funcione corretamente em vários navegadores, como Chrome, Firefox, Safari e Edge.
 
-12. Ocultar e Exibir Conteúdo:  []
+12. Ocultar e Exibir Conteúdo:  [X]
     - Utilize técnicas de ocultar e exibir conteúdo com base no tamanho da tela.
     - Considere o uso de media queries para controlar o comportamento.
 

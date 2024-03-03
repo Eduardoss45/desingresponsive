@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #f2ca80;
+  --text-color: #333;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+  --link-visited-color: #0c2642;
+  --card-padding: 1.5rem;
+  --card-content-margin-top: 1rem;
+  --card-content-margin-bottom: 1rem;
+  --list-item-margin-bottom: 10px;
+}
+
+/* Resetando margens, preenchimentos e modelo de caixa para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais para o corpo da página */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Ajuste o padding conforme necessário */
+}
+
+/* Estilos gerais para o cartão */
+.card {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 50%;
+  padding: var(--card-padding); /* Espaçamento interno uniforme */
+  margin: 20px 0; /* Adicionado margem no topo e na parte inferior */
+}
+
+/* Configurações para o título do cartão */
+.card-title {
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* Configurações para o conteúdo do cartão */
+.card-content {
+  margin-top: var(--card-content-margin-top);
+  height: auto; /* Altura dinâmica conforme o conteúdo */
+  background-color: white;
+  border-radius: 4px;
+  padding: var(--card-padding); /* Espaçamento interno uniforme */
+  margin-bottom: var(--card-content-margin-bottom);
+}
+
+/* Configurações para a imagem */
+.card-content img {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para a Descrição */
+.card-content .description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+/* Configurações gerais para listas */
+.content-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Configurações para os itens da lista */
+.list-items {
+  margin-bottom: var(--list-item-margin-bottom);
+  color: #555;
+}
+
+/* Configurações gerais para links */
+.list-items a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Transição suave de cor */
+}
+
+/* Configurações para a animação dos links ao passar o mouse */
+.list-items a:hover {
+  text-decoration: underline;
+  color: var(--link-hover-color);
+}
+
+.list-items a:visited {
+  color: var(
+    --link-visited-color
+  ); /* Escolha uma cor que seja fácil de distinguir de links não visitados */
+}
+
+/* Estilos para o Botão de Ação */
+.card-content .action-button {
+  background-color: var(--link-color);
+  color: white;
+  padding: 8px 16px;
+}
