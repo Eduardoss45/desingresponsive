@@ -1,0 +1,181 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Body Styles */
+body {
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-size: 18px; /* Default font size */
+}
+
+/* Headings and Text Styles */
+h1, h2, h3, h4, h5 {
+  color: #1a1a1a;
+}
+
+p, label {
+  color: #333;
+}
+
+/* Form Elements Styles */
+input, textarea {
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 2vh 0;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+textarea {
+  padding: 2vh 1vw;
+}
+
+/* Page Header Styles */
+.header {
+  height: 15vh;
+  padding: 2vh;
+  background-color: #025959;
+}
+
+.header h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+/* Form Container Styles */
+.form-container {
+  background-color: #fff;
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+  top: -5vh;
+  box-sizing: border-box;
+  padding: 2vh;
+}
+
+/* Form Header Styles */
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 5vh;
+}
+
+.form-header p {
+  color: #025959;
+  border-bottom: 2px solid #025959;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+/* Form Body Styles */
+.form-body {
+  padding: 3vh;
+}
+
+.form-title {
+  margin-bottom: 2vh;
+}
+
+.form-body p {
+  margin-bottom: 3vh;
+}
+
+.required-field {
+  color: #d32f2f;
+}
+
+.box-input {
+  margin-bottom: 2vh;
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 3vw 3vh 0;
+}
+
+.optional-list li {
+  list-style: none;
+}
+
+.box-input p {
+  margin-bottom: 2vh;
+}
+
+/* Button Styles */
+.btn-submit {
+  background-color: #025959;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  border-color: #025959;
+  color: #025959;
+}
+
+/* Responsive Styles for Small Screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-size: 1.5em;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
+}
+
+/* Additional Styles for Very Small Screens (e.g., smartphones) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-size: 1.2em;
+  }
+
+  .header {
+    height: 10vh;
+  }
+
+  .form-container {
+    width: 95%;
+  }
+
+  .btn-submit {
+    font-size: 0.8em;
+  }
+}
